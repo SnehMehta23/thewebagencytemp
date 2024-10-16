@@ -52,8 +52,8 @@ useSeoMeta({
       </template>
     </ULandingHero>
 
-    <ULandingSection class="!pt-0">
-      <ImagePlaceholder />
+    <ULandingSection class="!pt-0 image-section">
+      <img width="100%" height="100%" src="/test.png" alt="">
     </ULandingSection>
 
     <ULandingSection
@@ -121,5 +121,22 @@ useSeoMeta({
       linear-gradient(to right, rgb(var(--color-gray-800)) 1px, transparent 1px),
       linear-gradient(to bottom, rgb(var(--color-gray-800)) 1px, transparent 1px);
   }
+}
+
+.image-section {
+  margin-top: -200px; /* Adjust this value as needed */
+  position: relative;
+  z-index: 1;
+}
+
+/* Adjust the hero section to create space */
+:deep(.u-landing-hero) {
+  padding-bottom: 150px; /* Adjust this value as needed */
+}
+
+/* Ensure other sections don't overlap */
+:deep(.u-landing-section:not(.image-section)) {
+  position: relative;
+  z-index: 2;
 }
 </style>

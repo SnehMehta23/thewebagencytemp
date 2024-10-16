@@ -1,22 +1,22 @@
-title: Nuxt UI Pro - SaaS template
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+title: TheWebAgency | Web Design & Development
+description: The Web Agency is a dynamic design and development studio transforming digital visions into reality. We craft bespoke websites and brand experiences for businesses of all sizes, combining cutting-edge modern web development with startup-inspired design thinking.
 navigation: false
 hero:
-  title: Build your SaaS in seconds
-  description: This template demonstrates most of Nuxt UI Pro's components. It's a great starting point to build your own SaaS.
+  title: Modern Websites Built to Grow Your Business
+  description: Tailored solutions that make your brand grow. Helping businesses of all sizes reach their full online potential.
   headline:
-    label: Made with Nuxt UI Pro
+    label: View our pricing plans
     to: https://ui.nuxt.com/pro
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
-    - label: Get started
+    - label: Get a Free Quote
       to: '/signup'
       size: xl
       color: black
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
-    - label: Use this template
-      icon: i-simple-icons-github
+    - label: View Our Work
+      icon: material-symbols:folder-open-rounded
       size: xl
       color: gray
       to: https://github.com/nuxt-ui-pro/saas
